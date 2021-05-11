@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript</title>
+    <script>
+      /*function exibirArtigo(id, callbackSucesso, callbackErro){
+           //logica: recuperar o id via requisição htpp
+            if (false) {
+                callbackSucesso('Funções de callback em JS', 'Funções de callback')
+            }else {
+               callbackErro ('Erro ao recuperar os dados')
+            }
+        }
+        
+        var callbackSucesso = function(titulo, descricao){
+            document.write('<h1>' + titulo + '</h1>')
+            document.write('<hr />')
+            document.write('<p>' + descricao +'</p>')
+        }
+
+        var callbackErro = function(erro) {
+            document.write('<p><b>Erro:</b>' + erro + '</p>')
+        }
+           
+        exibirArtigo (1, callbackSucesso, callbackErro)*/
+
+      var somaNumeros = function (numero1, numero2) {
+        var resultado = numero1 + numero2;
+        console.log(resultado);
+      };
+
+      var subtraiNumeros = function (numero1, numero2) {
+        var resultado = numero1 - numero2;
+        console.log(resultado);
+      };
+
+      var multiplicaNumeros = function (numero1, numero2) {
+        var resultado = numero1 * numero2;
+        console.log(resultado);
+      };
+
+      function qualquer(bolinha) {
+        bolinha(2, 3);
+      }
+
+      qualquer(somaNumeros);
+      qualquer(subtraiNumeros);
+      qualquer(subtraiNumeros);
+    </script>
+  </head>
+  <body></body>
+</html>

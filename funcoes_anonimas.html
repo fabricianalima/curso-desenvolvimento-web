@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript</title>
+    <script>
+      var nomeRecebido = prompt("Digite seu nome");
+      console.log(nomeRecebido);
+      /*
+       * Funções anônimas tem a mesma estrutura e comportamento de funções 
+       * no geral, exceto que não tem nome, e para serem utilizadas precisam
+       * ser atribuídas a uma variável para depois serem executadas a partir 
+       * da variável que foi atribuída, colocanando no nome da variável e os 
+       * parênteses, e passando a quantidade de parâmetros que a função anônima
+       * requere. Essa variável que armazena a função anônima pode ser passada
+       * como parâmetro de uma outra função e execuda com função callback.
+       */
+      var exibirSaudacao = function (nome) {
+        document.write("Olá " + nome + ", tudo bem?");
+      };
+      exibirSaudacao(nomeRecebido);
+    </script>
+  </head>
+  <body></body>
+</html>
