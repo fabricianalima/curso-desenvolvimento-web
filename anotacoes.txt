@@ -1,0 +1,110 @@
+Java Script em arquivos HTML
+Java script linguagem de programação interpretada pelo browser.
+Formas de incluir o java script em arquivos HTML5:
+1 - Usar a tag "script":
+ <script> 
+// aqui fica a codificação java script
+</script>
+
+2 - A partir de um arquivo externo:
+<script src="meu _scriptscript.js></script>
+
+Regras para declaração de variaveis:
+
+Não podem ser iniciadas com numeros, apenas letras ou "_"
+Não podem ser utilizados caracteres especiais como "ç", "^", "~"
+Não podem ser iguais as palavras reservadas
+
+é recomendável declar a variavel usando o "var". O JavaScript é case sensitive, ou seja, diferencia letras maiusculas e minusculas.
+
+
+IF/ELSE
+
+if (condição1)
+   instrução1
+else if (condição2)
+   instrução2
+else if (condição3)
+   instrução3
+...
+else
+   instruçãoN
+
+
+Operadores de comparação (Condicionais):
+
+>	Maior que
+<	Menor que
+>=	Maior ou igual
+<=	Menor ou igual
+==	Valor igual à
+===	Valor igual e do mesmo tipo que
+!=	Valor diferente de
+!==	Valor diferente e do mesmo tipo que
+
+
+Operadores Lógicos:
+
+E (&&) - Utilizado quando desejamos que as duas expressões sejam verdadeiras.
+
+OU (||) - Utilizado quando precisamos que pelo meno um das expressões seja verdadeira.
+
+Negação (!) Inverte o resultado da expressão de comparação
+
+Eventos Mouse
+
+Onclick:  Evento disparado quando o elemento é clicado;
+Ondblclick: Evento disparado quando o elemento é clicado duas vezes;
+Onmouseup: É disparado quando o click em um elemento é liberado;
+Onmouseover: Acionado quando o cursor do mouse sobrepõe o elemento html;
+Onmouseout: Acionado quando o cursor do mouse sai da região do elemento html;
+
+
+Eventos Teclado
+
+onkeydown: Ao pressionar qualquer tecla do teclado o evento é acionado;
+onkeypress: Acionado quando a tecla pressionada representa um caracter;
+onkeyup: Acionado no momento em que a tecla é liberada;
+
+Eventos Janela
+
+Onresize:  Acionado quando a página é redimensionada;
+Onscroll:  Acionado quando o scroll do mouse é acionado;
+
+Eventos Formulários
+
+Onfocus: Acionado quabdo recebe o foco do mouse;
+Onblur: Acionado quando perde o foco do mouse;
+Onchange: Acionado quando o estado do elemento é modificado
+
+
+Arrays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

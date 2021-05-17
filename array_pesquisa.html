@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+        <script>
+            var lista_frutas = Array()
+
+            lista_frutas[0] = 'Banana'
+            lista_frutas[1] = 'Maça'
+            lista_frutas[2] = 'Morango'
+            lista_frutas[3] = 'Uva'
+
+                if(lista_frutas.indexOf('Uva') == -1) {
+                    console.log('Elemento não existe')
+                } else {
+                    console.log('Elemento existe e está na posição ' + lista_frutas.indexOf('Uva'))
+                }          
+
+                /*outro jeito de fazer
+
+                var auxiliar = lista_frutas.indexOf('Banana')
+
+                if (auxiliar === -1) {
+                    console.log('Elemento não existe')
+                } else {
+                    console.log('Elemento existe e está na posição ' + auxiliar)
+                }   
+                */       
+        </script>
+</head>
+<body>
+</body>
+</html>
